@@ -25,7 +25,7 @@ btnBuscar.addEventListener('click', async () => {
         resultado.innerHTML = `
             <h2>${classe}</h2>
             <h3>Resumo</h3>
-            <p>${summaryData}</p>
+            <p>${marked.parse(summaryData)}</p>
         `;
     } catch (error) {
         console.error(error);

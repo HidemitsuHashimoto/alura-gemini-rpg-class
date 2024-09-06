@@ -6,7 +6,10 @@ O projeto tem como objetivo utilizar a API Gemini para gerar um resumo da classe
 
 ## Como rodar o projeto localmente
 
-Utilize a funcionalidade Go Live do próprio VSCode para rodar o projeto.
+O projeto está online na vercel:
+[Link projeto](https://alura-gemini-rpg-class.vercel.app/)
+
+Ou utilize a funcionalidade Go Live do próprio VSCode para rodar o projeto.
 
 ![alt text](image.png)
 

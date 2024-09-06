@@ -32,12 +32,13 @@ h1 {
 }
 
 /* Search bar */
-#classe {
+input {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 100%;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 /* Button */
@@ -49,7 +50,6 @@ h1 {
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  margin-top: 10px;
   width: 100%;
 }
 

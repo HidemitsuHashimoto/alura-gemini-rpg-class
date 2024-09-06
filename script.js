@@ -23,7 +23,7 @@ btnBuscar.addEventListener('click', async () => {
         const summaryData = data?.candidates[0]?.content?.parts[0]?.text ?? ''
 
         resultado.innerHTML = `
-            <h2>${classe}</h2>
+            <h2>${classe.toUpperCase()}</h2>
             <h3>Resumo</h3>
             <p>${marked.parse(summaryData)}</p>
         `;

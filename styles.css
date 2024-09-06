@@ -1,0 +1,109 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f0f0f0; /* Light gray background */
+  min-height: 100vh; /* Set minimum height for full viewport */
+  display: flex; /* Center content vertically */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Vertically center content */
+}
+
+/* App container */
+#app {
+  background-color: #fff; /* White background */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+  max-width: 600px; /* Limit width for larger screens */
+  width: 100%; /* Ensure responsiveness */
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Search bar */
+#classe {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 16px;
+}
+
+/* Button */
+#buscar {
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Search result */
+#resultado {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  min-height: 100px; /* Set minimum height for results */
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #aaa; /* Light gray text */
+}
+
+/* Resultado */
+#resultado {
+  padding: 20px;
+  background-color: #f0f0f0; /* Cor de fundo suave */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #555;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+ol, ul {
+  padding-left: 20px;
+}
+
+ol li, ul li {
+  margin-bottom: 5px;
+}
+
+strong {
+  font-weight: bold;
+  color: #4CAF50; /* Verde para destacar habilidades */
+}
